@@ -1,0 +1,72 @@
+# =========================
+# .NET / C# Git Ignore
+# =========================
+
+# Build results
+bin/
+obj/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+
+# User specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Publish output
+publish/
+
+# Environment files
+.env
+.env.*
+
+# Test results
+TestResults/
+
+# Coverage reports
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+
+# Node modules (if frontend exists)
+node_modules/
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+ehthumbs.db
+Desktop.ini
