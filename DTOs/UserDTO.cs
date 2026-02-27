@@ -10,6 +10,6 @@ namespace TaskManagerAPI.DTOs;
         public int Id { get; set; }
         public required string Name { get; set; }
         public required string Email { get; set; }
-        public required List<TaskDTO> Tasks { get; set; }
+        public List<TaskDTO> Tasks { get; set; }
         
     }
